@@ -179,6 +179,7 @@ let timerStarted = false;
                         caughtCount++;
                         document.getElementById('caught-count').textContent = caughtCount;
                         img.removeAttribute('data-index');
+                        document.querySelector('input').value = ''    
                     }
                 });
 
