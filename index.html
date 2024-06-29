@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="header">
+            <div id="header-top">
+                <img src="https://pngimg.com/uploads/pokeball/pokeball_PNG21.png" alt="Pokeball">
+                <div id="input-section">
+                    <p>Input:</p>
+                    <input type="text" id="pokemon-input">
+                    <img src="https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-180x180.png" alt="Pokeball">
+                </div>
+            </div>
+            <div id="header-bottom">
+                <h3><span id="caught-count">0</span>/151</h3>
+                <h3>Timer:<span id="timer">5:00</span></h3>
+            </div>
+        </div>
+        <div id="pokemon-container"></div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="resultMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
