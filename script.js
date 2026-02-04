@@ -199,7 +199,7 @@ let timerStarted = false;
                 timerStarted = true;
                 clearInterval(countdown);
                 const display = document.getElementById('timer');
-                let time = 300; // 5 minutes in seconds
+                let time = 900; // 5 minutes in seconds
 
                 countdown = setInterval(() => {
                     const minutes = Math.floor(time / 60);
@@ -234,3 +234,4 @@ let timerStarted = false;
                 }
             }
         }
+
